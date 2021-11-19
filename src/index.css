@@ -1,0 +1,30 @@
+html,body{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+
+*{
+  box-sizing: border-box;
+  /*  */
+  touch-action: pan-y;
+  /* touch-action: pan-x; */
+}
+
+h2,h3,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  padding-bottom: 50px;
+}
+
+html,body,#root,.App{
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
